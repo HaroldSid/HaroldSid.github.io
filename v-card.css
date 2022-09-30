@@ -24,6 +24,10 @@
 {
     justify-content: space-around;
 }
+.shadow
+{
+    box-shadow: 12px 12px 70px 12px rgba(0, 0, 0, 0.4)
+}
 .logoNat
 {
     padding: 20px 50px 0px 40px;
@@ -34,24 +38,38 @@
 }
 .menu
 {
-    flex: 0.01;
+    margin: 20px 30px;
+}
+.portfolio
+{
+    background-color: #4C00F7;
+    color: #ffffff;
+    border-color: #4C00F7;
+    margin: 0px 10px 0px 0px;
+}
+.resume
+{
+    background-color: #ffffff;
 }
 body
 {
-    background: linear-gradient(90deg, #4C00F7 33%, #f8f8f5 33%);
+    background: linear-gradient(90deg, #4C00F7 35%, #ffffff 35%);
     items-align: center;
 }
 figure
 {
     flex-basis: 100%;
+    margin: 0;
 }
 ul
 {
     list-style-type: none;
+    color: #ffffff;
 }
 li
 {
     padding: 0px 0px 10px 0px;
+    font-size: 10px;
 }
 h1
 {
@@ -59,5 +77,21 @@ h1
 }
 h2
 {
-    margin-bottom: -15px;
+    color: #4C00F7;
+    margin-bottom: -5px;
+}
+h3
+{
+    font-size: 10px;
+}
+p
+{
+    font-size: 10px;
+}
+button
+{
+    border-radius: 30px;
+    padding: 10px 15px 10px 15px;
+    box-shadow: none;
+    margin: 15px 0px 0px 0px;
 }
