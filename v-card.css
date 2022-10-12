@@ -51,14 +51,11 @@
 {
     background-color: #ffffff;
 }
-body
-{
-    background: linear-gradient(90deg, #4C00F7 35%, #ffffff 35%);
-    items-align: center;
-}
 figure
 {
-    flex-basis: 100%;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(90deg, #4C00F7 35%, #ffffff 35%);
     margin: 0;
 }
 ul
